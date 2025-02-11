@@ -133,12 +133,7 @@ if (data === '28/10/2025') {
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
   Alla fine mostra il risultato in console.
 */
-const myList = [2, 4, 6];
-console.log('esercizio7', 'array base', myList);
-if (myList[1] < myList[2]) {
-  const myListReverse = myList.reverse();
-  console.log('esercizio7', 'array reverse', myListReverse);
-}
+
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 8
@@ -146,11 +141,28 @@ if (myList[1] < myList[2]) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+const myList = [2, 4, 6];
+console.log('esercizio7', 'array base', myList);
+if (myList[1] < myList[2]) {
+  const myListReverse = myList.reverse();
+  console.log('esercizio7', 'array reverse', myListReverse);
+}
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
+let due = 15;
+let tre = 2;
+if (due % 2 === 0) {
+  console.log(due, 'numero pari');
+} else {
+  console.log(due, 'numero dispari');
+}
 
+if (tre % 2 === 0) {
+  console.log(tre, 'numero pari');
+} else {
+  console.log(tre, 'numero dispari');
+}
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 10
