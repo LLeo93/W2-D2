@@ -150,32 +150,48 @@ if (myList[1] < myList[2]) {
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
+/* SCRIVI QUI LA TUA RISPOSTA */
+
 let due = 15;
 let tre = 2;
 if (due % 2 === 0) {
-  console.log(due, 'numero pari');
+  console.log('esercizio 9', due, 'numero pari');
 } else {
-  console.log(due, 'numero dispari');
+  console.log('esercizio 9', due, 'numero dispari');
 }
 
 if (tre % 2 === 0) {
-  console.log(tre, 'numero pari');
+  console.log('esercizio 9', tre, 'numero pari');
 } else {
-  console.log(tre, 'numero dispari');
+  console.log('esercizio 9', tre, 'numero dispari');
 }
-/* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 10
-  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-  let val = 7
-  if (val < 10) {
-      console.log("Meno di 10");
-    } else if (val < 5) {
-      console.log("Meno di 5");
-    } else {
-      console.log("Uguale a 10 o maggiore");
-    }
-*/
+  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.*/
+let val = 7;
+if ((val < 10) & (val > 5)) {
+  console.log('esercizio10', 'Meno di 10');
+} else if (val < 5) {
+  console.log('esercizio10', 'Meno di 5');
+} else if (val >= 10) {
+  console.log('esercizio10', 'Uguale a 10 o maggiore');
+}
+let val2 = 10;
+if ((val2 < 10) & (val > 5)) {
+  console.log('esercizio10', 'Meno di 10');
+} else if (val2 < 5) {
+  console.log('esercizio10', 'Meno di 5');
+} else if (val2 >= 10) {
+  console.log('esercizio10', 'Uguale a 10 o maggiore');
+}
+let val3 = 2;
+if ((val3 < 10) & (val3 > 5)) {
+  console.log('esercizio10', 'Meno di 10');
+} else if (val3 < 5) {
+  console.log('esercizio10', 'Meno di 5');
+} else if (val3 >= 10) {
+  console.log('esercizio10', 'Uguale a 10 o maggiore');
+}
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
