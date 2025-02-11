@@ -40,9 +40,19 @@ if (n3 % 5 === 0) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 let n4 = 4;
 let n5 = 3;
-console.log('esercizio4', 'n4 uguale a 8', n4 === 8, 'n5 uguale a 8', n5 === 8);
-console.log('esercizio4', 'n4+n5 uguale a 8', n4 + n5 === 8);
-console.log('esercizio4', 'n4-n5 uguale a 8', n4 - n5 === 8);
+let x1 = 5;
+let x2 = 6;
+
+if (
+  x1 === 8 ||
+  x2 === 8 ||
+  x1 + x2 === 8 ||
+  x1 - x2 === 8 ||
+  x2 + x1 === 8 ||
+  x1 + x2 === 8
+) {
+  console.log('esercizio4', 'verificato!');
+}
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
